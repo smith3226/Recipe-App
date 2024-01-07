@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+}
+section {
+  margin: 3%;
+  /* border: 2px solid red; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-img{
+  height: 300px;
+  object-fit:cover;
+  object-position:center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btnContainer{
   display: flex;
-  flex-direction: column;
+  justify-content:center;
   align-items: center;
+}
+
+.left{
+  margin-right: 10px;
+}
+  
+.container{
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  
+}
+
+.row{
+  display: flex;
+}
+
+.card{
+  max-width: 100%;
+  /* border: 2px solid black; */
+}
+
+.row{
+  /* border: 2px solid blue; */
+ 
+}
+
+.cardSection{
+  
+}
+
+.card{
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 20px;
+}
+
+.def-card{
+  max-height: 20px;
+}
+
+.cuisineLabel{
+  text-transform: uppercase;
+}
+
+.left{
+  background: green;
+}
+
+.errorHand{
+  font-size: 1.5rem;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
